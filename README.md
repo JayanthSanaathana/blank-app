@@ -17,3 +17,11 @@ A simple Streamlit app template for you to modify!
    ```
    $ streamlit run streamlit_app.py
    ```
+import streamlit as st
+import yfinance as yf
+from datetime import date
+import pandas as pd
+import plotly.graph_objs as go
+from prophet import Prophet
+
+from prophet.plot import plot_plotly
